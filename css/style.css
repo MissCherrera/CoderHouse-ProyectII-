@@ -1,0 +1,347 @@
+body{
+    /*background: #EECDA3;  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /*background-color: rgb(212, 228, 252);*/
+    background-color: rgb(240, 232, 223);
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+    color: #b4a18b;
+}
+/* HEADER*/
+.headerContent{
+    display: inline-block
+}
+.icon{
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    display: inline-block;
+}
+.headerTitle{
+    font-family: Helvetica;
+    font-size: 35px;
+    font-weight: bold;
+    /*color: rgb(250, 251, 252);*/
+    color: #8C6169;
+    text-decoration: none;
+    margin-top: 35px;
+    margin-left: 70px;
+    display: inline-block;
+}
+.navContent{
+    padding: 20px;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    display: inline-block;
+    word-spacing: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #8C6169;
+}
+.listaOne li{
+    display:inline;
+     padding-left:3px;
+     padding-right:3px
+}
+.caja{
+    word-spacing: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #8C6169;
+}
+.piepagina{
+    text-align: center;
+    margin-top: 30px;
+}
+.iconify{
+    font-size: 40px;
+    color: #8C6169;
+}
+
+/* BODY - TITLE - IMG*/
+.imgCentral{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    margin-top: 5px;
+}
+.principalTitle{
+    color:#8C6169;
+    font-size: 40px;
+    font-weight: bolder;
+    word-spacing: 15px;
+    letter-spacing: 4px;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+.contentWelcome{
+    text-align: center;
+    padding: 20px 60px; 
+    margin: 10px 60px 50px 20px;
+    display: flex;
+}
+.secondTitle{
+    color:#8C6169 ;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    word-spacing: 15px;
+    letter-spacing: 4px;
+    font-weight: bolder;
+}
+.contentParrafoTwo{
+    text-align: center;
+    margin: 10px 10px 30px 10px;
+}
+.imgclases{
+    width: 250px;
+    height: 250px;
+    border-radius: 120%; 
+}
+.gridImagen{
+    display: grid;
+    grid-template-columns: 270px 270px 270px;
+    grid-template-rows: 300px 10px;
+    grid-column-gap: 15px;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.link-Redondo{
+    text-decoration: none;
+    color:#8C6169 ;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    word-spacing: 15px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+section{
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*Contenido Final index img+text*/
+.extraContent{
+    text-align: center;
+    margin: 30px 60px;
+    display: flex;
+}
+.contenidoTexto{
+    margin: 30px;
+}
+.contenidoFoto{
+    margin: 10px;
+}
+
+/*Parrafos centrales*/
+.parrafoOne{
+    text-align: center;
+    margin: 40px;
+}
+.parrafoClassic{
+    margin: 20px 60px;
+}
+.parrafoClassicTwo{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/*ABOUT - PARRAFO*/
+/*caja de imagen y texto*/
+
+.about-grid{
+    display:grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 400px 300px;
+        grid-gap: 15px;
+    margin: 30px auto;
+    /*width: 70%;*/
+}
+
+.img-one{
+    width: 282px;
+    height: 390px;
+    justify-self: end;
+    align-self: end;
+}
+.img-two{
+    width: 466px;
+    height: 308px;
+    justify-self: center;
+    align-self: end;
+}
+.img-three{
+    width: 310px;
+    height: 205px;
+    justify-self: start;
+    align-self: end;
+}
+.img-four{
+    width: 399px;
+    height: 266px;
+    justify-self: end;
+    align-self: start;
+}
+.img-five{
+    width:500px ;
+    height:220px;
+    justify-self: center;
+    align-self: start;
+}
+.img-six{
+    width: 192px;
+    height: 300px;
+    justify-self: start;
+    align-self: start;
+}
+
+.contentAbout{
+    padding:20px;
+    margin:20px 20px;
+}
+#contenidoabout{
+    display: flex;
+    padding: 20px;
+    margin: 40px 60px;
+}
+.perfilUno{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 10px solid rgb(240, 232, 223);
+    /*float: left;
+    
+    shape-outside: circle(50%);*/
+}
+
+.parrafoAboutOne{
+    text-align: center;
+    margin:  50px 30px;
+}
+.parrafoAboutTwo{
+    text-align: center;
+    padding: 30px;
+    margin: 40px 80px;
+}
+.imgabout{
+    display: block;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    max-width: 100%;
+}
+
+/*SCHEDULE*/
+.headSchedule{
+    margin: 20px 30px 50px 30px;
+}
+
+.tablaTitle{
+    color: #a67e85;
+}
+.tablaSchedule{
+    background-color: rgb(214, 200, 184);
+    margin: auto;
+    padding: 15px ;
+}
+.tablaCentrado{
+    text-align: center;
+}
+
+/*TRAINNERS*/
+/*caja img Posturas*/
+.imgPosturas {
+    /*padding-top: 20px;
+    padding-bottom: 30px;
+    margin: 40px;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 20px;
+}
+.imgPostura1{
+    width: 350px;
+    height: 350px;
+}
+.imgPostura2{
+    width: 596px;
+    height: 324px;
+}
+.redondo{
+    width: 250px;
+    height: 250px;
+    margin: 30px 70px;
+    border-radius: 120%;
+}
+
+.lastParrTrain{
+    text-align: center;
+    display: block;
+    padding:30px;
+    margin:20px 30px 30px 20px;
+}
+
+.phraseBottom{
+    color:#8C6169;
+    font-size: 40px;
+    font-weight: bolder;
+    word-spacing: 15px;
+    letter-spacing: 8px;
+    text-align: center;
+    display: block;
+    margin: 50px 80px 50px 80px;
+    padding: 50px;
+}
+
+/*CONTACT*/
+
+/*SIGNUP*/
+.imgCentralS{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    margin-top: 10px;
+}
+.centerForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formulario{
+    margin: 20px 30px;
+    padding: 20px;
+}
+.gender{
+    margin-top: 10px;
+}
+.displayLevel{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.signupTitle{
+    color:#8C6169 ;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    word-spacing: 4px;
+}
+.phraseBottomSign{
+    color:#8C6169;
+    font-size: 30px;
+    font-weight: bolder;
+    word-spacing: 10px;
+    letter-spacing: 8px;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp - Just Yoga</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="headerContent">
+        <a href="index.html">
+            <img src="img/lotoTwo.png" class="icon" alt="">
+            <h1 class="headerTitle"> Just Yoga </h1>
+        </a>
+    </header>
+    <div>
+        <nav class="navContent">
+            <ul class="listaOne">
+                <li>
+                    <a href="about.html" class="caja">ABOUT</a>
+                </li>
+                <li>
+                    <a href="schedule.html" class="caja">SCHEDULE</a>
+                </li>
+                <li>
+                    <a href="training.html" class="caja">TRAINING</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="caja">CONTACT</a>
+                </li>
+                <li>
+                    <a href="signup.html" class="caja">SIGN-UP</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <img src="img/fondoSignup.jpg" alt="Imagen de Yoga" class="imgCentralS">
+    
+    <h3 class="signupTitle">Complete the Form to Contact</h3>
+    <div class="centerForm">
+    <!-- Siempre va form con post-->
+        <form method="POST" class="formulario" action=""> 
+            <div>
+                <label for="fileset_01"></label> Name:
+                <input type="text" class="cajaForm" name="nombre">
+            </div>
+            <div>
+                Last Name:
+                <input type="text" class="cajaForm" name="apellido">
+            </div>
+            <div>
+                Email:
+                <input type="email" class="cajaForm" name="email">
+            </div>
+            
+            <div class="gender">
+                Gender:
+            <div>
+                Male:
+                <input type="radio" name="sexo" value="hombre">
+            </div>
+            <div>
+                Female:
+                <input type="radio" name="sexo" value="mujer">
+            </div>
+            
+            <div class="displayLevel">
+                Level
+                <select name="Level" id="">
+                    <option value="B">Beginner</option>
+                    <option value="I">Intermediate</option>
+                    <option value="A">Advance</option>
+                </select>
+            </div>
+        </form>
+
+        <div class="formNews">
+            Do you want to receive newsletter?
+            <input type="checkbox" name="acepta" value="1">
+        </div>
+        
+        <textarea name="comentarios" rows="10" cols="40">Send Coments</textarea>
+        
+        <div>
+            <input type="submit" value="Clean Form">
+            <input type="submit" value="Send Form">
+        </div>
+    </div>
+        
+    <p class="phraseBottomSign">
+        MORE STRECHING LESS STRESSING
+    </p>
+    <footer>
+        <div class="piepagina">
+            <h3>Just Yoga - Be Free</h3>
+            (538) 723- YOGA|info@justyogafree.com
+            <br>
+            <!--link anexado con el span del icon -->
+            <a href="http:\\www.facebook.com"><span class="iconify" data-icon="bx-bxl-facebook-circle"
+                    data-inline="false"></span></a>
+    
+            <a href="http:\\www.instagram.com"><span class="iconify" data-icon="ri:instagram-fill"
+                    data-inline="false"></span></a>
+    
+            <a href="http:\\www.pinterest.com"><span class="iconify" data-icon="fe-pinterest"
+                    data-inline="false"></span></a>
+    
+            <a href="http:\\www.youtube.com"><span class="iconify" data-icon="typcn-social-youtube-circular"
+                    data-inline="false"></span></a>
+    
+            <br>
+            ©Copyright 2020, Just Yoga.
+        </div>
+    </footer>
+</body>
+</html>
